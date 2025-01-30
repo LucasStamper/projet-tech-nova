@@ -1,0 +1,267 @@
+ .PC1 {
+   height: 600px;
+   width: 1000px;
+   margin: auto;
+   position: relative;
+   top: 200px;
+   right: 25px;
+   border-radius: 10px;
+   background-color: grey;
+   color: White;
+   box-shadow: 20px 10px 10px black;
+ }
+
+ .PC2 {
+   width: 1000px;
+   height: 600px;
+   margin: auto;
+   position: relative;
+   top: 200px;
+   left: -25px;
+   border-radius: 10px;
+   background-color: grey;
+   color: White;
+   box-shadow: 20px 10px 10px black;
+
+ }
+
+ .PC3 {
+   height: 600px;
+   width: 1000px;
+   margin: auto;
+   position: relative;
+   top: 200px;
+   left: -25px;
+   border-radius: 10px;
+   background-color: grey;
+   box-shadow: 20px 10px 10px black;
+
+ }
+
+ .PC4 {
+   height: 600px;
+   width: 1000px;
+   margin: auto;
+   position: relative;
+   top: 200px;
+   left: -25px;
+   border-radius: 10px;
+   background-color: grey;
+   box-shadow: 20px 10px 10px black;
+
+ }
+
+
+
+ h1 {
+   text-align: center;
+
+ }
+
+ input[type="button"] {
+   box-sizing: inherit;
+   background-color: rgb(255, 255, 255);
+   border: hidden;
+   border-radius: 100px;
+   text-transform: capitalize;
+   color: rgb(0, 0, 0);
+   width: 400px;
+   height: 40px;
+   position: relative;
+   top: 100px;
+   left: 270px;
+   border: solid;
+   border-radius: 15px;
+   border-color: rgb(0, 0, 0);
+   transition: 0.3s;
+ }
+
+
+
+ .text1 {
+   width: 500px;
+   position: relative;
+   top: -330px;
+   left: 775px;
+   color: white;
+
+
+ }
+
+
+
+ body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #ffffff;
+   margin: 0px;
+   padding: 0px;
+   height: 100vh;
+ }
+
+ .interligne {
+   line-height: 35px;
+ }
+
+ .text2 {
+   width: 500px;
+   position: relative;
+   top: -350px;
+   left: 775px;
+   display: flex;
+   color: white;
+
+ }
+
+ .interligne2 {
+   line-height: 65px;
+ }
+
+ .Boutton2 {
+   position: relative;
+   top: -100px;
+   left: 10px
+ }
+
+ .text3 {
+   width: 500px;
+   position: relative;
+   top: -350px;
+   left: 720px;
+   color: White;
+
+
+ }
+
+
+ .Bouton3 {
+   position: relative;
+   top: -100px;
+   left: 10px;
+ }
+
+
+
+ nav {
+   background-color: rgb(255, 255, 255);
+   box-shadow: 3px 3px 5px #0000001a;
+   margin: 0 auto;
+ }
+
+ nav ul {
+   width: auto;
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin: auto;
+ }
+
+ nav li {
+   height: 80px;
+
+ }
+
+ nav a {
+   height: 100%;
+   padding: 0 30px;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   color: black;
+   transition: 0.3s;
+ }
+
+ nav a:hover {
+   background-color: #162938;
+   color: white;
+ }
+
+ nav li:first-child {
+   margin-right: auto;
+ }
+
+ .grand {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ h1 {
+   font-size: 5rem;
+   letter-spacing: 4px;
+   margin: 0;
+   color: #162938;
+ }
+
+ h2 {
+   margin: 0;
+   padding: 20px;
+   letter-spacing: 7px;
+   color: #162938;
+ }
+
+ .text4 {
+   width: 500px;
+   position: relative;
+   top: -300px;
+   left: 775px;
+   color: white;
+ }
+
+ input[type="button"]:hover {
+   background-color: #162938;
+   color: white;
+ }
+
+ #contact {
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+     0 8px 10px -6px rgb(0 0 0 / 0.1);
+ }
+
+ footer {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row-reverse;
+   margin: 2rem;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .location {
+   flex: 2;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+   img {
+     margin: 2rem;
+   }
+ }
+
+ .paiement {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .reseaux {
+   display: flex;
+   align-items: center;
+   flex: 1;
+   gap: 1rem;
+ }
+
+ .insta {
+   border-radius: 16px;
+ }
+
+ .X {
+   border-radius: 16px;
+ }
+
+ .linkedin {
+   border-radius: 16px;
+ }
